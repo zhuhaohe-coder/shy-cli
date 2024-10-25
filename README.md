@@ -1,40 +1,37 @@
-# Features
-- **Modern.js Template**: For projects using Modern.js, a modern web development framework.
-- **UmiMax Template**: For projects based on Umi.js with the UmiMax setup for scalable applications.
+# Modern.js App
 
-# Templates
+## Setup
 
-## Modern.js Template
-
-The **Modern.js** template provides a modern web development environment with built-in features like:
-
-- Rspack
-- Tailwind CSS
-- Antd
-- Zustand
-- Typescript
-
-## UmiMax Template
-
-The **UmiMax** template is built on Umi.js and designed for enterprise-level applications with features such as:
-
-- MFSU
-- Antd
-- Tailwind CSS
-- Valtio
-- Typescript
-
-# Usage
-
-## Create a Modern.js Project
+Install the dependencies:
 
 ```bash
-shy-cli my-modern-project --template modern-react
+pnpm install
 ```
 
-## Create an UmiMax Project
+## Get Started
+
+Start the dev server:
 
 ```bash
-shy-cli my-umimax-project --template umimax-react
+pnpm dev
 ```
 
+Enable optional features or add a new entry:
+
+```bash
+pnpm new
+```
+
+Build the app for production:
+
+```bash
+pnpm build
+```
+
+Preview the production build locally:
+
+```bash
+pnpm serve
+```
+
+For more information, see the [Modern.js documentation](https://modernjs.dev/en).
